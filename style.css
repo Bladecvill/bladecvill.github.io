@@ -93,7 +93,7 @@ header > div {
   justify-content: center;
   border-radius: 40px;
   overflow: hidden;
-  filter: drop-shadow(1px 1px 20px #ca0000);
+  filter: drop-shadow(1px 1px 20px #000);
 }
 
 .foto img {
@@ -113,11 +113,11 @@ header > div {
   color: var(--secondary-color-hover);
 }
 .content h4 {
-  font-size: 2em;
+  font-size: 1.4rem;
 }
 .content p {
-  font-size: 1.2rem;
-  padding: 10px 0 40px 0;
+  font-size: 1.3rem;
+  padding: 10px 0 ;
 }
 
 .btn-group {
@@ -202,18 +202,22 @@ header > div {
 }
 
 .about .content {
-  max-width: 700px;
+  max-width: 1080px;
   padding: 40px;
   text-align: start;
   color: var(--text-color);
-
   background: var(--primary-color-hover);
   filter: drop-shadow(1px 1px 20px #000);
   border-radius: 20px;
 }
 
 .about .content h3 {
-  font-size: 2rem;
+    font-size: 1.8rem;
+  color: var(--text-color);
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-bottom: 1rem;
 }
 .about .content ul{
   list-style: disc;
@@ -222,7 +226,27 @@ header > div {
 
 .about .content ul li {
   margin: 10px 0;
-  font-size: 1.2rem;
+  font-size: 1.3rem;
+}
+
+.about .content p {
+  font-size: 1.3rem;
+  margin-bottom: 20px;
+  line-height: 1.6;
+}
+
+.hobbies{
+  display: flex;
+  gap: 40px;
+}
+
+.hobbies a:hover {
+  text-decoration: underline;
+  color: var(--secondary-color-hover);
+  cursor: pointer;
+}
+.hobbies i {
+  color: var(--secondary-color-hover);
 }
 
 
@@ -391,7 +415,7 @@ a{
 }
 
 .skills-content .progress h3 {
-  font-size: 1.1rem;
+  font-size: 1.2rem;
   color: var(--text-color);
   display: flex;
   align-items: center;
